@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KimTaeMin99/EqMoniter/issues"
   },
-  "homepage": "https://github.com/KimTaeMin99/EqMoniter#readme"
+  "homepage": "https://github.com/KimTaeMin99/EqMoniter#readme",
+  "devDependencies": {
+    "electron": "^18.2.4"
+  }
 }
